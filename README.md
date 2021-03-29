@@ -22,17 +22,17 @@ Here is the list of endpoints available in the app. Use these endpoints after **
 
 ## Installation Instructions
 
-### Activate virtual environment
+### STEP 1. Activate virtual environment
 
 Create a virtual environment and activate it.
 
-### Install Dependencies
+### STEP 2. Install Dependencies
 
 Use the following command in the terminal to install all the dependencies from requirement.txt file.
 ```
 pip install -r requirements.txt
 ```
-### Setup MongoDB Database
+### STEP 3. Setup MongoDB Database
 
 Go to MongoDB compass and create a new database. Remember the name of the database to update database settings.
 
@@ -51,7 +51,7 @@ DATABASES = {
 
 }
 ```
-### Migrate
+### STEP 4. Migrate
 
 Run the following commands in terminal to migrate to database and start the server.
 ```
