@@ -6,33 +6,20 @@
 
 Here is the list of endpoints available in the app. Use these endpoints after **api/v1/**
 
-|Endpoint |HTTP Verb|
-
-|------------------------------ |---------|
-
-|/ |GET |
-
-|/:pk/ |GET |
-
-|/bookings |GET |
-
-|/bookings/create |POST |
-
-|/bookings/:pk |GET |
-
-|users/ |GET |
-
-|users/:pk/ |GET |
-
-|/rest-auth/registration |POST |
-
-|/rest-auth/login |POST |
-
-|/rest-auth/logout |GET |
-
-|/rest-auth/password/reset |POST |
-
-|/rest-auth/password/reset/confirm |POST |
+| Endpoints                         | HTTP Verb |
+|-----------------------------------|-----------|
+| /                                 | GET       |
+| /:pk                              | GET       |
+| /bookings                         | GET       |
+| /bookings/create                  | POST      |
+| /bookings/:pk                     | GET       |
+| users/                            | GET       |
+| users/:pk/                        | GET       |
+| /rest-auth/registration           | POST      |
+| /rest-auth/login                  | POST      |
+| /rest-auth/logout                 | GET       |
+| /rest-auth/password/reset         | POST      |
+| /rest-auth/password/reset/confirm | POST      |
 
 ## Installation Instructions
 
@@ -52,17 +39,6 @@ Go to MongoDB compass and create a new database. Remember the name of the databa
 
 Go to settings.py and change the database settings. Replace the &#39;NAME&#39; field with the name of your database.
 
-DATABASES = {
-
-    &#39;default&#39;: {
-
-        &#39;ENGINE&#39;: &#39;djongo&#39;,
-
-        &#39;NAME&#39;: &#39;hospitaldb&#39;,
-
-    }
-
-}
 
 DATABASES = {
 
