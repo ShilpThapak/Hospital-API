@@ -1,4 +1,5 @@
 # Hospital-API
+Hospital API is a Covid-19 hospital bed booking REST API (built using Python and MongoDB) that handles CRUD operations for a specific user like get bed list(based on filters like patient critical level, pin-code, hospital, time slot), book bed, reschedule booking and cancel booking.
 
 ## Endpoints
 
