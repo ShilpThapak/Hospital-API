@@ -28,16 +28,16 @@ Create a virtual environment and activate it.
 ### Install Dependencies
 
 Use the following command in the terminal to install all the dependencies from requirement.txt file.
-
+```
 pip install -r requirements.txt
-
+```
 ### Setup MongoDB Database
 
 Go to MongoDB compass and create a new database. Remember the name of the database to update database settings.
 
 Go to settings.py and change the database settings. Replace the &#39;NAME&#39; field with the name of your database.
 
-
+```
 DATABASES = {
 
 &#39;default&#39;: {
@@ -49,11 +49,11 @@ DATABASES = {
 }
 
 }
-
+```
 ### Migrate
 
 Run the following commands in terminal to migrate to database and start the server.
-
-Python manage.py migrate
-
-Python manage.py runserver
+```
+python manage.py migrate
+python manage.py runserver
+```
