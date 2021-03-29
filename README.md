@@ -40,13 +40,13 @@ Go to settings.py and change the database settings. Replace the &#39;NAME&#39; f
 ```
 DATABASES = {
 
-'default': {
+  'default': {
 
-'ENGINE': 'djongo',
+    'ENGINE': 'djongo',
 
-'NAME': 'database_name',
+    'NAME': 'database_name',
 
-}
+  }
 
 }
 ```
