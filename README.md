@@ -1,10 +1,8 @@
 # Hospital-API
 
-# Readme
-
 ## Endpoints
 
-Here is the list of endpoints available in the app. Use these endpoints after **api/v1/**
+Here is the list of endpoints available in the app. Use these endpoints after **api/v1/**. For instance if you want to get a list of beds go to http://127.0.0.1:8000/api/v1/.
 
 | Endpoints                         | HTTP Verb |
 |-----------------------------------|-----------|
