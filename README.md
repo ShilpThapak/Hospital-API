@@ -58,3 +58,4 @@ Run the following commands in terminal to migrate to database and start the serv
 python manage.py migrate
 python manage.py runserver
 ```
+To learn more about the endpoints go to /docs (http://127.0.0.1:8000/docs/).
